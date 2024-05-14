@@ -1,0 +1,700 @@
+/* css reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* end of css reset */
+/* variable */
+:root {
+    --black: rgba(36, 35, 35, 0.9);
+    --blackbutton: rgb(36, 35, 35);
+    --h4: rgb(221, 144, 0);
+    --blue: rgb(53, 129, 159);
+    --white: rgb(255, 255, 255)
+}
+
+/* end of variable */
+
+
+/* hero */
+
+.hero {
+    height: 90vh;
+    text-align: center;
+    background-image: url("../images/yellow-background-pencil-designer.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: var(--black);
+
+
+}
+
+.hero .hero-inner h1 {
+    font-size: 64px;
+    color: var(--black);
+    padding-top: 220px;
+    
+}
+
+.hero .hero-inner p {
+    font-size: 20px;
+    color: var(--black);
+    margin-top: 8px;
+    font-family: regular;
+}
+
+
+.hero .hero-inner .button {
+    color:var(--white);
+    background-color: var(--blue);
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 35px;
+    width: 150px;
+    height: 50px;
+    font-size: 12px;
+    border-radius: 3px;
+}
+
+.hero .hero-inner .button:hover {
+    background-color: var(--blue);
+    color: var(--black);
+}
+
+/* end of hero */
+
+/* about */
+
+.about .about-inner {
+    height: 40vh;
+    background-color: var(--white);
+    text-align: center;
+}
+
+.about .about-inner h3 {
+    font-size: 35px;
+    color: var(--black);
+    margin-top: 80px;
+    font-family: bold;
+
+}
+
+.about .about-inner p {
+    font-size: 18px;
+    color: var(--black);
+    margin-top: 15px;
+    font-family: regular;
+}
+
+.about .about-inner .button {
+    color: var(--white);
+    background-color: var(--black);
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 35px;
+    width: 150px;
+    height: 50px;
+    font-size: 12px;
+    border-radius: 3px;
+}
+
+.about .about-inner .button:hover {
+    background-color: var(--blue);
+    color: var(--black);
+}
+
+/* end of about */
+/* SERVICES */
+
+#services {
+    height: 70vh;
+    background-color: var(--blue);
+    text-align: center;
+    padding-top: 100px;
+}
+
+
+#services h4 {
+    color: var(--h4);
+    font-size: 19px;
+    font-family: bold;
+}
+
+#services h3 {
+    font-family: bold;
+    color: var(--white);
+    padding: 20px;
+    text-align: center;
+    
+}
+
+#services h2 {
+    color: var(--white);
+    font-family: bold;
+}
+
+#links{
+    display: flex;
+    padding-top: 80px;
+}
+#link1{
+    background-color: var(--white);
+    border-radius: 100px;
+    margin-top: 10px;
+    margin-right: 10px;
+    height: 100px;
+    width: 100px;
+    margin-left: 240px;
+}
+#link2{
+    background-color: var(--white);
+    border-radius: 100px;
+    margin-top: 10px;
+    margin-right: 10px;
+    height: 100px;
+    width: 100px;
+    margin-left: 160px;
+}
+#link3{
+    background-color: var(--white);
+    border-radius: 100px;
+    margin-top: 10px;
+    margin-right: 10px;
+    height: 100px;
+    width: 100px;
+    margin-left: 160px;
+}
+#link4{
+    background-color: var(--white);
+    border-radius: 100px;
+    margin-top: 10px;
+    margin-right: 10px;
+    height: 100px;
+    width: 100px;
+    margin-left: 175px;
+}
+
+#icons1 {
+    display: flex;
+    padding-left: 200px;
+}
+
+#p1{
+    color: var(--white);
+    font-size: 17px;
+    margin-bottom: 60px;
+    margin-left: .001px;
+}
+#p2{
+    color: var(--white);
+    font-size: 17px;
+    padding-top: 0px;
+    margin-left: 20px;
+}
+#p3{
+    color: var(--white);
+    font-size: 17px;
+    padding-top: 0px;
+    margin-left: 50px;
+}
+#p4{
+    color: var(--white);
+    font-size: 17px;
+    padding-top: 0px;
+    margin-left: 80px;
+    
+}
+#icons1 p{
+    font-weight: lighter;
+    opacity: 50%;
+}
+
+/* }END OF SERVICES */
+
+
+
+/* new website */
+.website {
+    height: 65vh;
+    background-image: url(../images/image.scissors.jpg);
+    text-align: center;
+    padding-top: 300px;
+
+}
+
+.website .website-inner h2 {
+    font-size: 40px;
+    color: var(--black);
+    margin-bottom: 25px;
+    font-family: bold;
+}
+
+
+.website .website-inner h2 .line-break {
+    display: block;
+    
+}
+
+
+
+.website .website-inner .button {
+    width: 150px;
+    height: 50px;
+    border-radius: 3px;
+    font-size: 14px;
+    background-color: var(--blue);
+    color: var(--white);
+    border: none;
+    cursor: pointer;
+}
+
+.website .website-inner .button:hover {
+    background-color: var(--blue);
+    color: var(--black);
+}
+
+/* end of new website */
+
+
+
+
+/* portfolio */
+.portfolio {
+    height: 100vh;
+    text-align: center;
+    padding-top: 60px;
+    background-color: var(--white);
+}
+
+.portfolio h4 {
+    font-size: 16px;
+    color: var(--h4);
+    margin-bottom: 7px;
+    font-family: bold;
+}
+
+.portfolio h2 {
+    font-size: 40px;
+    color: var(--black);
+    margin-bottom: 9px;
+    font-family: bold;
+}
+
+.portfolio .content1 {
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio .content1 .content-inner1 {
+    background-image: url(../images/image.envelope.jpg);
+    height: 35vh;
+    width: 27%;
+    background-size: cover;
+    cursor: pointer;
+    
+}
+.portfolio .content1 .content-inner1:hover{
+    
+    transform: scale(1.3);
+    transition: 0.3s;
+}
+
+.portfolio .content1 .content-inner1 h3 {
+    font-size: 20px;
+    color: var(--white);
+    padding-top: 100px;
+    font-family: bold;
+    opacity: 0;
+    cursor: pointer;
+    text-align: left;
+    margin-left: 10px;
+}
+
+
+.portfolio .content1 .content-inner1:hover h3{
+    opacity: 1;
+    
+} 
+
+
+.portfolio .content1 .content-inner1 p {
+    font-size: 14px;
+    color: var(--white);
+    font-family: regular;
+    opacity: 0;
+    cursor: pointer;
+    text-align: left;
+    margin-left: 10px;
+}
+
+
+.portfolio .content1 .content-inner1:hover p{
+    opacity: 1;
+    font-size: 15px;
+}
+
+
+
+.portfolio .content1 .content-inner2 {
+    background-image: url(../images/pencil.jpg);
+    height: 35vh;
+    width: 27%;
+    background-size: cover;
+}
+.portfolio .content1 .content-inner2:hover{
+    transform: scale(1.3);
+    transition: 0.3s;
+}
+
+
+.portfolio .content1 .content-inner2 h3 {
+    font-size: 20px;
+    color: var(--white);
+    padding-top: 100px;
+    font-family: bold;
+    opacity: 0;
+    cursor: pointer;
+    text-align: left;
+    margin-left: 10px;
+}
+.portfolio .content1 .content-inner2:hover h3{
+    opacity: 1;
+    
+}
+
+.portfolio .content1 .content-inner2 p {
+    font-size: 16px;
+    color: var(--white);
+    font-family: regular;
+    opacity: 0;
+    cursor: pointer;
+    text-align: left;
+    margin-left: 10px;
+}
+.portfolio .content1 .content-inner2:hover p{
+    opacity: 1;
+    font-size: 15px;
+}
+
+.portfolio .content2 {
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio .content2 .content-inner3 {
+    background-image: url(../images/strawberry.PNG);
+    height: 35vh;
+    width: 27%;
+    background-size: cover;
+}
+.portfolio .content2 .content-inner3:hover{
+    transform: scale(1.3);
+    transition: 0.3s; 
+}
+
+.portfolio .content2 .content-inner3 h3 {
+    font-size: 20px;
+    color: var(--white);
+    padding-top: 100px;
+    margin-right: 90px;
+    font-family: bold;
+    opacity: 0;
+    cursor: pointer;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.portfolio .content2 .content-inner3:hover h3{
+    opacity: 1;
+    
+}
+
+
+.portfolio .content2 .content-inner3 p {
+    font-size: 16px;
+    color: var(--white);
+    font-family: regular;
+    opacity: 0;
+    cursor: pointer;
+    text-align: left;
+    margin-left: 10px;
+}
+.portfolio .content2 .content-inner3:hover p{
+    opacity: 1;
+    font-size: 15px;
+}
+
+.portfolio .content2 .content-inner4 {
+    background-image: url(../images/image.scissors.jpg);
+    height: 35vh;
+    width: 27%;
+    background-size: cover;
+}
+
+.portfolio .content2 .content-inner4:hover{
+    transform: scale(1.3);
+    transition: 0.3s;
+}
+.portfolio .content2 .content-inner4 h3 {
+    font-size: 20px;
+    color: var(--white);
+    padding-top: 100px;
+    margin-right: 90px;
+    font-family: bold;
+    opacity: 0;
+    cursor: pointer;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.portfolio .content2 .content-inner4:hover h3{
+    opacity: 1;
+    
+}
+
+
+.portfolio .content2 .content-inner4 p {
+    font-size: 16px;
+    color: var(--white);
+    font-family: regular;
+    opacity: 0;
+    cursor: pointer;
+    text-align: left;
+    margin-left: 10px;
+}
+.portfolio .content2 .content-inner4:hover p{
+    opacity: 1;
+    font-size: 15px;
+}
+
+
+/* end of portfolio */
+
+/* buttons */
+.buttons {
+    height: 40vh;
+    background-color: var(--blue);
+    text-align: center;
+    padding-top: 120px;
+    justify-content: space-between;
+}
+
+.buttons h2 {
+    color: var(--white);
+    font-size: 40px;
+    margin-bottom: 30px;
+    font-family: bold;
+}
+
+.buttons .button1 {
+    background-color: var(--white);
+    font-size: 14px;
+    border: none;
+    height: 50px;
+    width: 150px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 20px;
+
+}
+
+.buttons .button1:hover {
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.buttons .button2 {
+    background-color: var(--black);
+    font-size: 14px;
+    border: none;
+    height: 50px;
+    width: 150px;
+    border-radius: 3px;
+    cursor: pointer;
+    color: var(--white);
+}
+
+.buttons .button2:hover {
+    background-color: var(--white);
+    color: var(--black);
+}
+
+/* end of buttons */
+
+
+
+/* map */
+.map {
+    padding-top: 50%;
+    position: relative;
+}
+
+.map iframe {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+
+/* end of map */
+/* end */
+.end {
+    height: 20vh;
+    background-color: var(--white) ;
+    text-align: center;
+    padding-top: 50px;
+    
+}
+
+.end .links {
+    align-content: center;
+    border-radius: 100px;
+    padding: 10px;
+    margin: 5px;
+    background-color: var(--white);
+    display: flex;
+    font-size: 60px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    width: 290px;
+    margin-left:530px ;
+    
+}
+
+
+.end .copyright p{
+    margin-bottom: 30px;
+    font-size: 16px;
+    color: var(--blue);
+   
+}
+
+
+
+
+/* Media query for iPad Mini */
+@media only screen and (device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) {
+    #services {
+      padding-top: 90px;
+    }
+  
+    #services h2 {
+      font-size: 24px;
+    }
+  
+    #links {
+      padding-top: 240px;
+    }
+  
+    #link1,
+    #link2,
+    #link3,
+    #link4 {
+      margin-left: 87px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+      height: 80px;
+      width: 80px;
+    }
+  
+    #icons1 {
+      padding-left: 60px;
+    }
+  
+    #p1,
+    #p2,
+    #p3,
+    #p4 {
+      font-size: 14px;
+    }
+
+    .end .links {
+        align-content: center;
+        border-radius: 100px;
+        padding: 10px;
+        margin: 5px;
+        background-color: var(--white);
+        display: flex;
+        font-size: 60px;
+        margin-bottom: 20px;
+        justify-content: space-between;
+        width: 290px;
+        margin-left:220px ;
+        
+    }
+
+  }
+
+ /* Media query for iPhone XR */
+
+
+ 
+@media (max-width:414px){
+    #services{
+        width: 413px;
+    }
+    
+    #services #services-inner #links{
+        width: 413px;
+    }
+    .toggle {
+        position: fixed;
+        height: 40px;
+        width: 40px;
+        top: 18px;
+        right: 484px;
+        z-index: 1;
+        cursor: pointer;
+        border-radius: 2px;
+        background-color: rgba(0, 0, 0, 0.2);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+    #links{
+        display: flex;
+        padding-top: 80px;
+        width: fit-content;
+        width: 413;
+    }
+    #link1{
+        background-color: var(--white);
+        border-radius: 100px;
+        margin-top: 10px;
+        margin-right: 10px;
+        height: 100px;
+        width: 100px;
+        margin-left: -2px;
+    }
+    #link2{
+        background-color: var(--white);
+        border-radius: 100px;
+        margin-top: 10px;
+        margin-right: 10px;
+        height: 100px;
+        width: 100px;
+        margin-left: 37px;
+    }
+    #link3{
+        background-color: var(--white);
+        border-radius: 100px;
+        margin-top: 10px;
+        margin-right: 10px;
+        height: 100px;
+        width: 100px;
+        margin-left: 160px;
+    }
+    #link4{
+        background-color: var(--white);
+        border-radius: 100px;
+        margin-top: 10px;
+        margin-right: 10px;
+        height: 100px;
+        width: 100px;
+        margin-left: 175px;
+    }
+    
+
+    }
